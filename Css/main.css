@@ -1,0 +1,166 @@
+@import url('https://fonts.googleapis.com/css?family=Coustard|Manuale|Merriweather|Oswald|PT+Sans|Zilla+Slab');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+nav li>a:hover,
+nav li>a:active{
+    color: #222;
+}
+
+html{
+    font-size: 16px;
+    line-height: 1.6;
+    font-family: 'PT Sans',Oswald,Verdana, sans-serif;
+}
+
+html,body{
+    background-color: #d4d4d4;
+}
+
+h1{
+/*    font-family:'Coustard',Manuale,Garamond,Bookman, serif;*/
+    font-family: 'PT Sans',Oswald,Verdana, sans-serif;
+    font-size: 3.998rem;
+    padding:1rem 2rem;
+}
+
+h2{
+    font-family: 'Coustard', Manuale,Garamond,Bookman,serif;
+    font-size: 2.827rem;
+    padding:1rem 2rem;
+    color: #496973;
+}
+footer p{
+    text-align: left;
+    height:10%;
+    clear:both;
+}
+ul{
+    color:#4A7F9D;
+}
+
+/*
+div img{
+    clear:both;
+    float: left;
+    width: 30%; 
+    margin-right: 1%; 
+    margin-bottom: 0.5em;
+}
+*/
+
+/*img.card-img-top:hover{*/
+     
+/*
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+-moz-transform: scaleX(-1);
+        -o-transform: scaleX(-1);
+        -webkit-transform: scaleX(-1);
+        transform: scaleX(-1);
+        filter: FlipH;
+        -ms-filter: "FlipH";
+}
+*/
+.Google_map_static_img
+{
+    max-width:100%;
+    height:auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+h5.card-title{
+    
+    color:"#4A7A7FÍ";
+}
+.card {
+	
+    perspective: 1000px;
+    
+}
+.card:hover , .card.hover {
+		transform: rotateY(180deg);
+	}
+.card {
+	transition: 0.6s;
+	transform-style: preserve-3d;
+	position: relative;
+    
+    
+    
+}
+
+.card-img-top, .card-body {
+/*	   backface-visibility: hidden;*/
+
+	position: relative;
+	
+	
+}
+.card-img-top {
+    
+/*	z-index: 2;*/
+	
+	transform: rotateY(0deg);
+    
+}
+
+.card-body {
+	transform: rotateY(180deg);
+  
+}
+
+
+footer img{
+    max-width:100%;
+    height:5%;
+    display:block;
+    overflow:hidden;
+    float:left;
+}
+
+
+
+/*
+    .card {
+	transition: 0.6s;
+	transform-style: preserve-3d;
+	position: relative;
+    max-width:100%;
+    height:auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    
+    
+
+}
+*/
+
+/*
+	.card-body {
+		transform: rotateX(180deg);
+	}
+
+	.card {
+		transform-origin: 100% 213.5px; 
+	}
+	.card:hover     {
+		transform: rotateX(-180deg);
+	}
+.img_container{
+    
+    position:relative;
+
+    box-sizing:border-box;
+
+    
+}
+*/
+
+
